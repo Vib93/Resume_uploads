@@ -1,7 +1,7 @@
 import { Canvas } from '@react-three/fiber'
 import { Environment, Center, PivotControls, OrbitControls} from '@react-three/drei';
 
-import Shirt from './shirt';
+import Shirt from './tshirt';
 import Backdrop from './backdrop';
 //import CameraRig from './camerarig';
 

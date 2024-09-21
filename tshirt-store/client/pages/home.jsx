@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import { useSnapshot } from 'valtio';
-
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 import state from '../store';
 import { CustomButton } from '../components';
 import {headContainerAnimation,headContentAnimation,headTextAnimation,slideAnimation} from '../config/motion';

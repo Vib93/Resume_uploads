@@ -8,7 +8,7 @@ module.exports = {
     rules: [
     
       {
-        test: /.jsx?$/,
+        test: /.(js|jsx?)$/,
         exclude: /node_modules/,
         use: [
             {
@@ -27,7 +27,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: [".ts", ".tsx",".js",".css"],
+    extensions: [".jsx",".js",".css"],
   },
   output: {
     filename: "bundle.js",
